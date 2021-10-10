@@ -24,6 +24,7 @@ curl https://raw.githubusercontent.com/Haransis/conf/main/starship.toml -L -o ~/
 echo "Done."
 
 echo "Installing xfce4-terminal theme..."
+mkdir -p ~/.local/share/xfce4/terminal/colorschemes/
 curl https://raw.githubusercontent.com/arcticicestudio/nord-xfce-terminal/develop/src/nord.theme -L -o ~/.local/share/xfce4/terminal/colorschemes/nord.theme
 echo "Done."
 
