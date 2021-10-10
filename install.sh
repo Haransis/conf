@@ -31,8 +31,8 @@ mkdir -p /tmp/FiraCode
 curl https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip -L -o /tmp/FiraCode/FiraCode.zip
 unzip /tmp/FiraCode/FiraCode.zip -d /tmp/FiraCode
 sudo mkdir -p /usr/share/fonts/opentype/firacodenf
-cp /tmp/FiraCode/Fira\ Code\ *Nerd\ Font\ Complete.otf /usr/share/fonts/opentype/firacodenf
-fc-cache -f -v
+sudo cp /tmp/FiraCode/Fira\ Code\ *Nerd\ Font\ Complete.otf /usr/share/fonts/opentype/firacodenf
+sudo fc-cache -f -v
 echo "Done."
 echo "Please set font and palette inside xfce4-terminal"
 
